@@ -4,7 +4,7 @@ docker tag  jslsolucoes/nginx-admin-agent-red-hat:v.2.0.3  my/nginx-admin-agent
 
 version=2.0.3
 datadir=/opt/docker/nginx-admin-agent/data
-auth_key=ty2019123
+auth_key=test123
 admin_url=http://localhost:3000
 
 mkdir -p ${datadir}/conf
